@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-wrapper{
+    width: 100%;
+    height: 500px;
+    background-color:hotpink;
+    background-size: cover;
+    background-image: url(../images/Untitled\ design\ \(13\).png);
+}
+.top{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+   
+}
+ .top-menu{
+    display: flex;
+    border: solid;
+    width: 50%;
+   margin: auto;
+   height: 50px;
+   position: relative;
+   top: 20px;
+   background-color: rgba(44, 39, 39, 0.815);
+   padding-top: 20px;
+   border-left:solid palevioletred 5px;
+   
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
+}
+.menu,li :hover{
+    cursor: pointer;
+  
+}
+.menu :hover{
+    color: orangered;
+}
+#logo{
+    padding-left: 10px;
+}
+.menu{
+    margin-left: 70px;
+}
+#text h2{
+    text-align: center;
+    /* color: white; */
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.btn{
+     position: absolute; 
+    right: 0px; 
+      display: none;
+   
+}
+/* section one ends */
+
+
+
+.bg-wrapper2{
+    background-color: black;
+}
+.part2{
+    text-align: center;
+    display: flex;
+    color: white;
+    background-color: black;
+    margin: auto;
+    width: 50%;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.part2-1{
+    /* border: solid; */
+    background-color:orangered;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    top: 20px;  
+}
+.part2-1:hover{
+    top: 0px;
+    transition: ease-in-out 0.3s;
+
+}
+.part2-2{
+    background-color:teal;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    top: 20px; 
+    /* width: 800px;
+    height: 200px; */
+}
+.part2-2:hover{
+    top: 0px;
+    transition: ease-in-out 0.3s;
+
+}
+.part2-3{
+    background-color:orange;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    top: 20px; 
+}
+.part2-3:hover{
+    top: 0px;
+    transition: ease-in-out 0.3s;
+
+}
+
+/* end of 3 div */
+
+
+.part2_2{
+    color: white;
+    display: flex;
+    height: 300px;
+    border: solid purple;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+#img1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#part2_3{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+#btn1{
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    border: solid white;  
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color:teal;
+}
+#txt-div{
+    padding: 20px;
+}
+#txt-div p{
+    color: gray;
+    padding-top: 10px;
+}
+
+/* end of div and img */
+#part2_3 p{
+    padding: 20px;
+    color: gray;
+}
+#bg-wrapper4{
+    width: 100%;
+    /* border: solid white; */
+    background-color:rgba(138, 116, 138, 0.133);
+}
+#part4{
+    height: 300px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+#part4 h3{
+    color: white;
+}
+#part4 p{
+    color: gray;
+}
+@media(max-width:900px){
+    .menu{
+        display: none;
+        border:solid orangered;
+    }
+    .menu li{
+        display: block;
+    }
+
+    .btn{
+        display: block;
+    }
+    .empty{
+        display: block;
+        position: absolute;
+        right: 0px;
+        margin-top: 20px;
+    }
+    .part2{
+        
+        display: block;  
+        margin: 0px; 
+        width: 100%;
+    }
+    .part2-1{
+        width: 100%;
+    }
+    .part2-2{
+    width: 100%;
+    }
+    .part2-3{
+    width: 100%;
+    }
+    
+}
